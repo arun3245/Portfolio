@@ -1,0 +1,11 @@
+media query:used to create responsive website
+ @media not| only mediatype and (madia feature) and (media feature)
+ {
+    css-code
+ }
+ mediatype:screnn/print
+ /* break points
+    480-sm
+    768-medium
+    992-large
+    1280-extra large

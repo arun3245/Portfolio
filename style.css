@@ -1,0 +1,245 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: "Josefin Sans", sans-serif;
+}
+html {
+    font-size: 100%; /* Or adjust as per requirement */
+  }
+  
+#container{
+    width: 100%;
+    position: relative;
+    height: 100vh;
+}
+.logo{
+    height: 300px;
+    width: 300px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 80px;
+}
+.list-items{
+    display: inline;
+    margin: 0px 20px;
+}
+.link{
+    text-decoration: none;
+    font-size: 30px;
+    color: black;
+    font-weight: bold;
+    
+}
+.Home-content{
+    margin: 13% 0% 0% 8%;
+
+}
+#uname{
+    font-size: 70px;
+    margin-bottom: 20px;
+    font-family: "Pacifico", cursive;
+}
+#lname{
+    color: brown;
+
+}
+p{
+    font-size: 30px;
+}
+#user-detail{
+    line-height: 1.5;
+    margin-bottom: 15px;
+    font-size: 18px;
+    text-align: justify;
+    padding: 20px;
+    
+}
+.download{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 10px;
+    font-size: 30px;
+    border-radius: 10px;
+}
+.link:hover{color: coral; 
+ text-decoration: underline;}
+ .Home-image{
+    width: 45%;
+     height: 80%;
+     position: absolute;
+     bottom: 0%;
+     right: 30px;
+
+    }
+.group1{
+    height: 100%;
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: bottom 2s ,left 1s;
+
+}
+.Home-image:hover #shape2{
+    bottom: 40px;
+
+}
+.Home-image:hover #shape1{
+  left: 40%;
+}
+#about{
+    margin: 15% 8% 0% 8%;
+}
+.section-head{
+    text-align: center;
+}
+.main-head{
+    font-size: 40px;
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+}
+.sub-head{
+    font-size: 25px;
+    color:red ;
+    font-family: "Playwrite AT", cursive;
+}
+.about-content{
+    display: flex;
+    align-items: center;
+    margin: 50px 20px;
+
+}
+.about-image>img{
+    width: 300px;
+}
+#about-detail p{
+    font-size: 25px;
+    text-align: justify;
+    line-height: 1.5; 
+    font-family: "Roboto Flex", sans-serif;
+    margin: 0 20px;
+}
+.information{
+    font-size: 25px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.myskill{
+
+    width: 100%;
+    border-radius: 20px;
+
+}
+.skill-content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    margin-top: 20px;
+    align-items: center;
+}
+.bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 0px;
+    position: relative;
+
+}
+#skills{
+    margin:8% 8% 0% 8% ;
+}
+.bar-head,.bar-percent{
+    font-size: 30px;
+    font-weight: 500;
+    
+}
+.base-bar{
+     width: 100%;
+     background-color: black;
+     height: 10px;
+     border-radius: 10px;
+     position: absolute;
+     bottom: 0px;
+
+}
+.html-bar{
+    width: 93%;
+    background-color: yellow;
+}
+#contact{
+    margin: 8% 8% 0% 8%;
+}
+.icons-collection{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    font-size: 40px;
+
+    
+}
+.icons{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 1px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 10px;
+    background-color: brown;
+
+   
+}
+.icons:hover{
+    background-image: linear-gradient(to bottom right,red, yellow,orange);
+    animation: rotates 2s;
+}
+.brand{
+    color: black;
+}
+.brand:hover{
+    color: white;
+}
+@keyframes rotates{
+    0%{transform: rotate(30deg);}
+    20%{transform: rotate(-30deg);}
+    40%{transform: rotate(30deg);}
+    60%{transform: rotate(-30deg);}
+    80%{transform: rotate(30deg);}
+    100%{transform: rotate(-30deg);}
+}
+#copyright{
+    text-align: center;
+    font-weight: bold;
+}
+.up-arrow{
+    float: right;
+}
+html{
+    scroll-behavior: smooth;
+}
+::-webkit-scrollbar{
+    width: 20px;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-track{
+     background-color: aquamarine;
+}
+::-webkit-scrollbar-thumb{
+    background-color: brown;
+    border-radius: 10px;
+}
+body {
+    font-size: 16px;
+}
+@media screen and (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+}
+
+
